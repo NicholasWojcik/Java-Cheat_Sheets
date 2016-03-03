@@ -24,10 +24,10 @@
 * **JLabel** _label_ = new **JLabel**(_labelString_); ------------ creates a label using a string
 * **JList** _list_ = new **JList**(); ---------------------------------- creates a list of items that are singularly selectable (see notes for use)
 * **JTextArea** _ta_ = new **JTextArea**(); -------------------- creates multiple lines of plain text and allows the user to edit
-* **JTextField** _tf_ = new **JTextField**(_string_); ------------- creates a single line of text using the string and allows the user to edit it
+* **JTextField** _tf_ = new **JTextField**(_string_); ------------- creates a single line of text using the string and allows user to edit it
 
 ## Notes
-> Populating a JList---JList have no methods to add or remove items.  A DefaultListModel object must be used, ex. below.
+> Populating a JList: JList have no methods to add or remove items.  A DefaultListModel object must be used, ex. below.
 * **DefaultListModel**<_String_> _listModel_ = new **DefaultListModel**<_String_>();
 * **JList** _list_ = new **JList**<String>(_listModel_);
 * _listModel_.add(index);
