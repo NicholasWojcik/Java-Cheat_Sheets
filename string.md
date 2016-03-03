@@ -16,4 +16,4 @@
 of StringBuffer, it maintains the object.  So if you wish to reverse a string, it is easiest to use the StringBuffer class like
 below.
 * **StringBuffer** _strBuff_ = new **StringBuffer**(_str1_);
-* _strBuff_.reverse().toString();             <-- returns the string reversed
+* _strBuff_.reverse().toString();             <-- returns _str1_ reversed
