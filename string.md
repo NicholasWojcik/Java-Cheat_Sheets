@@ -16,8 +16,8 @@
 of StringBuffer, it maintains the object.  So if you wish to reverse a string, it is easiest to use the StringBuffer class like
 below.
 
-'''Java
+``` java
 StringBuffer strBuff = new StringBuffer(str1);
 
 strBuff.reverse().toString();
-'''
+```
