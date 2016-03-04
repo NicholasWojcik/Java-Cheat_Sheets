@@ -15,5 +15,8 @@
 > StringBuffer is a class that works differently than String.  Whenever a String is manipulated, it returns a brand new String.  In the case
 of StringBuffer, it maintains the object.  So if you wish to reverse a string, it is easiest to use the StringBuffer class like
 below.
-* **StringBuffer** _strBuff_ = new **StringBuffer**(_str1_);
-* _strBuff_.reverse().toString();             <-- returns _str1_ reversed
+
+''' Java
+StringBuffer strBuff = new StringBuffer(str1);
+strBuff.reverse().toString();
+'''
