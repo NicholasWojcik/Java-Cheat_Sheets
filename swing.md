@@ -1,23 +1,26 @@
 # Java Swing Cheat Sheet
 
 ## Setting Up Your Window In Your Programs Constructor (make sure an instance is made in the main method)
+
 > Window are very customizable, but below is a bare bones example to get going
-* **JFrame** _window_ = new **JFrame**(_windowTitleString_);
-* _window_.setSize(_xLength_, _yLength_);
-* _window_.setFocusable(_true_);
-* _window_.setDefaultCloseOperation(_JFrame_.EXIT_ON_CLOSE);
-* _window_.setResizable(_false_);
-* _window_.setLayout(_null_) //allows you to set the exact location of your following components
+``` java
+* JFrame window = new JFrame(windowTitleString);
+* window.setSize(xLength, yLength);
+* window.setFocusable(true);
+* window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+* window.setResizable(false);
+* window.setLayout(null) //allows you to set the exact location of your following components
 * 
 * //create component(s)
-* **Button** _button_ = new **Button**(_"My App"_);
-* **_button_.setBounds(_xCoor_, _yCoor_, _xLength_, _yLength_);
+* Button button = new Button("My App");
+* button.setBounds(xCoor, yCoor, xLength, yLength);
 * 
 * //add your components here, ex. using the button created above
-* _window_.getContentPane().add(_button_);
+* window.getContentPane().add(button);
 * 
 * //set your component visable, this should always come after the components you want to be visable
-* _window_.setVisable(_true_);
+* window.setVisable(true);
+```
 
 ## Components (to be cont..)
 * **JButton** _button_ = new **JButton**(_buttonString_); ---- creates a clickable button with a label on it
