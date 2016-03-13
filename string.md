@@ -18,6 +18,5 @@ below.
 
 ``` java
 StringBuffer strBuff = new StringBuffer(str1);
-
 strBuff.reverse().toString();
 ```
