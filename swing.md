@@ -24,11 +24,11 @@ window.setVisable(true);
 
 #### Components (to be cont..)
 ``` java
-JButton button = new JButton(buttonString); // creates a clickable button with a label on it
-JLabel label = new JLabel(labelString); // creates a label using a string
-JList list = new JList(); // creates a list of items that are singularly selectable (see notes for use)
-JTextArea ta = new JTextArea(); // creates multiple lines of plain text and allows the user to edit
-JTextField tf = new JTextField(string); // creates a single line of text using the string and allows user to edit it
+JButton button = new JButton(buttonString); //creates a clickable button with a label on it
+JLabel label = new JLabel(labelString); //creates a label using a string
+JList list = new JList(); //creates a list of items that are singularly selectable (see notes for use)
+JTextArea ta = new JTextArea(); //creates multiple lines of plain text and allows the user to edit
+JTextField tf = new JTextField(string); //creates a single line of text using the string and allows user to edit it
 ```
 
 #### Notes
