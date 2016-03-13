@@ -2,24 +2,24 @@
 
 ## Setting Up Your Window In Your Programs Constructor (make sure an instance is made in the main method)
 
-> Window are very customizable, but below is a bare bones example to get going
+#### Window are very customizable, but below is a bare bones example to get going
 ``` java
- JFrame window = new JFrame(windowTitleString);
- window.setSize(xLength, yLength);
- window.setFocusable(true);
- window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
- window.setResizable(false);
- window.setLayout(null) //allows you to set the exact location of your following components
- 
- //create component(s)
- Button button = new Button("My App");
- button.setBounds(xCoor, yCoor, xLength, yLength);
- 
- //add your components here, ex. using the button created above
- window.getContentPane().add(button);
- 
- //set your component visable, this should always come after the components you want to be visable
- window.setVisable(true);
+JFrame window = new JFrame(windowTitleString);
+window.setSize(xLength, yLength);
+window.setFocusable(true);
+window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+window.setResizable(false);
+window.setLayout(null) //allows you to set the exact location of your following components
+
+//create component(s)
+Button button = new Button("My App");
+button.setBounds(xCoor, yCoor, xLength, yLength);
+
+//add your components here, ex. using the button created above
+window.getContentPane().add(button);
+
+//set your component visable, this should always come after the components you want to be visable
+window.setVisable(true);
 ```
 
 ## Components (to be cont..)
