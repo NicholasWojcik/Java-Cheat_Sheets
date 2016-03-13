@@ -31,6 +31,8 @@ JTextArea ta = new JTextArea(); //creates multiple lines of plain text and allow
 JTextField tf = new JTextField(string); //creates a single line of editable text using the string provided
 ```
 
+#### MVC Design Pattern
+
 #### Notes
 Populating a JList: JList have no methods to add or remove items.  A DefaultListModel object must be used, ex. below.
 ``` java
